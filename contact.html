@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get in contact | Portfolio</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <div class="main-contact">
+        <button onclick="window.location.href='./index.html'" class="btn-home"><i class="bi bi-arrow-left"></i></button>
+    
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="contact-left-title">
+                    <h1>Get in contact</h1>
+                </div>
+                    
+                <input type="hidden" name="access_key" value="ce5a5998-1cb6-40f5-a399-42fe8336adbb">
+
+                <input name="name" type="text" class="contact-inputs" placeholder="Your name" required>
+                
+                <input name="email" type="email" class="contact-inputs" placeholder="Your email" required>
+
+                <textarea name="message" class="contact-inputs" placeholder="Your message" required></textarea>  
+                
+                <button type="submit">Send <i class="bi bi-send"></i></button>
+            </form>
+
+            <div class="contact-right">
+                <figure>
+                    <img src="./message.svg" alt="message" width="550px">
+                </figure>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

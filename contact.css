@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+    --color1: #ffd900;
+    --color2: #f7eaa4;
+    --color3: #6200ff;    
+    --font1: "Poppins", serif;
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font1);
+}
+
+body {
+    background-image: url(./bg.svg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: var(--font1);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-contact {
+    margin: auto;
+    width: 90vw;
+}
+
+.btn-home {
+    margin: 50px 0;
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-home:hover {
+    outline: none;
+    transform: scale(1.3);
+    transition: 300ms;
+    color: var(--color1);
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-container form {
+    width: 35vw;
+    display: flex;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-left-title {
+    color: var(--color2);
+    font-size: 1.5rem;
+    border-bottom: 3px solid var(--color1);
+}
+
+.contact-container input[type] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-container textarea {
+    height: 150px;
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-container button {
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: 2px solid;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    word-spacing: 5px;
+    cursor: pointer;
+}
+.contact-container button:hover {
+    background-color: var(--color3);
+    transition: 300ms;
+    outline: none;
+}
+
+.contact-right {
+    width: auto;
+}
