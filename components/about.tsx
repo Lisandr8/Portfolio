@@ -19,7 +19,7 @@ export function About() {
               carefully considered design.
             </p>
             <p className="leading-relaxed text-muted-foreground text-pretty">
-              When I&apos;m not coding, I enjoy playing video games and exploring gaming communities — immersing myself
+              When I&apos;m not coding, I enjoy playing video games and exploring gaming communities immersing myself
               in that creative and energetic environment that keeps my work fresh.
             </p>
 

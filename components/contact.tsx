@@ -1,9 +1,9 @@
 import { ArrowUpRight } from "lucide-react"
 
 const links = [
-  { label: "Email", value: "hello@lisandroandujar.com", href: "mailto:hello@lisandroandujar.com" },
+  { label: "Email", value: "lisandroandujar@gmail.com", href: "mailto:lisandroandujar@gmail.com" },
   { label: "GitHub", value: "@lisandr8", href: "https://github.com/lisandr8" },
-  { label: "LinkedIn", value: "Lisandro Andujar", href: "#" },
+  { label: "LinkedIn", value: "Lisandro Andujar", href: "https://www.linkedin.com/in/lisandroandujar/" },
 ]
 
 export function Contact() {
@@ -17,7 +17,7 @@ export function Contact() {
               Have a project in mind? Let&apos;s build something great.
             </h2>
             <a
-              href="mailto:hello@lisandroandujar.com"
+              href="mailto:lisandroandujar@gmail.com"
               className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
             >
               Start a conversation
