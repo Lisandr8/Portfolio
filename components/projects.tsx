@@ -57,7 +57,7 @@ export function Projects() {
             >
               <div className="overflow-hidden rounded-xl border border-border bg-card">
                 <img
-                  src={project.image || "/placeholder.svg"}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}${project.image || "/placeholder.svg"}`}
                   alt={`Screenshot of the ${project.title} website`}
                   className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                 />
