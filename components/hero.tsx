@@ -17,7 +17,7 @@ export function Hero() {
       </h1>
 
       <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground text-pretty">
-        With around three years of experience, I blend thoughtful design with clean code to bring ideas to life —
+        With around three years of experience, I blend thoughtful design with clean code to bring ideas to life
         from strategic law firms to family-focused healthcare brands.
       </p>
 

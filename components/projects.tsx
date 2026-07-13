@@ -13,7 +13,7 @@ type Project = {
 const projects: Project[] = [
   {
     title: "Nimbra Law",
-    category: "Law Firm — Dominican Republic",
+    category: "Law Firm",
     description:
       "A strategic legal consultancy platform with real-time court case lookup integrated with the Dominican judiciary API. Editorial, premium design built around trust and authority.",
     image: "/projects/nimbra-law.png",
