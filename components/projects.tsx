@@ -19,7 +19,7 @@ const projects: Project[] = [
     image: "/projects/nimbra-law.png",
     url: "https://nimbralaw.com/",
     year: "2026",
-    tags: ["Next.js", "React", "TailwindCSS", "API Integration"],
+    tags: ["React", "TailwindCSS", "Claudflare", "HubSpot", "AI Agents", "API Integration"],
   },
   {
     title: "Beyond Behavioral Solutions",
@@ -29,7 +29,7 @@ const projects: Project[] = [
     image: "/projects/beyond-behavioral.png",
     url: "https://staging.beyondbehavioralsolutions.com/",
     year: "2026",
-    tags: ["WordPress", "Design", "UX", "Responsive"],
+    tags: ["WordPress", "Elementor", "Astra", "Yoast SEO"],
   },
 ]
 

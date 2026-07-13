@@ -1,4 +1,4 @@
-const skills = ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Bootstrap", "Figma", "WordPress"]
+const skills = ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Bootstrap", "AI Agents", "Figma", "WordPress"]
 
 export function About() {
   return (
